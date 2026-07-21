@@ -2,9 +2,9 @@
 import numpy as np
 import random
 # Step 1️⃣ – Create the Environment
-states=[0,1,2,3,4]
+s
 actions=[0,1]
-
+tates=[0,1,2,3,4]
 # Step 2️⃣ – Initialize Q-Table
 
 Q=np.zeros((len(states),len(actions)))

@@ -1,4 +1,4 @@
-from locale import currency
+
 import cv2
 
 from ultralytics import YOLO

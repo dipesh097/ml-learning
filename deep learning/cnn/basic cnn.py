@@ -19,7 +19,7 @@ def conv(image,kernel):
     for i in range(h-kh+1):
         for j in range(w-kw+1):
             patch=image[i:i+kh,j:j+kw]
-            output[i,j]=np.sum(kernel*patch)
+            output[i,j]=np.sum(patch*kernel)
             # print(f"{i}th and {j}th loop, kernel*patch - {kernel*patch} and sum -{np.sum(kernel*patch)}")
             # print(f"patch in {i}th and {j}th loop is in convolution {patch} :")
             # print(f"output in {i}th and {j}th loop is {output} :")

@@ -1,5 +1,5 @@
 import cv2
-image=cv2.imread(r"C:\Users\dipesh's-device\Pictures\Camera Roll\Screenshots\Screenshot 2025-10-27 210150.png")
+image=cv2.imread(r"C:\Users\dipesh's-device\Pictures\Camera Roll\WIN_20260409_01_27_28_Pro.jpg")
 
 if image is None:
     print("loaded SUCCESSfully")
@@ -12,7 +12,7 @@ gray_image=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 print("""hello user \n what you want \n 1 : save image \n 2 :show gray image""")
 
 user=int(input("here(gives reply in terms of number):"))
- 
+
 
 if user==1:
     print("enter adrees where you want save it (note:ending must be .png,.spg etc)")

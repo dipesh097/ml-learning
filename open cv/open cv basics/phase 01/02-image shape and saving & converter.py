@@ -1,6 +1,6 @@
 import cv2
 
-image=cv2.imread(r"C:\Users\dipesh's-device\Pictures\Camera Roll\Screenshots\Screenshot 2025-10-27 210150.png")
+image=cv2.imread(r"C:\Users\dipesh's-device\Pictures\Camera Roll\WIN_20260409_01_27_28_Pro.jpg")
 
 h,w,c=image.shape
 

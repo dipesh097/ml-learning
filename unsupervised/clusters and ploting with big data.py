@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 # import matplotlib.pyplot as plt ye  h 2d ke liy but inthis we ploting 3d plot
 
-from mpl_toolkits.mplot3d import Axes3D
+# from mpl_toolkits.mplot3d import Axes3D
 data = {
     "CustomerID": [1,2,3,4,5,6,7,8,9,10,
                    11,12,13,14,15,16,17,18,19,20,

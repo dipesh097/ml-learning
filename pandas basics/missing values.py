@@ -1,16 +1,15 @@
-import numpy as np
 import pandas as pd
+import numpy as np
 
-data={
-    "dipesh":[24,45,234,2,np.nan],
-    "me":[23,24,np.nan,3,3],
-    "you":  [24,np.nan,2,21,34]
-}
-
-df=pd.DataFrame(data)
-
-print(df.isnull().sum())
-
-df.fillna(df.mean()  ,inplace=True)
+df = pd.DataFrame({
+    "Name": ["Amit", "Sara", None, "Riya"],
+    "Age": [21, np.nan, 20, 23],
+    "Score": [88, 95, np.nan, 91]
+})
 
 print(df)
+print(df.isnull)
+print(df.isnull().sum())
+print(df.dropna())
+
+print(df.fillna(1))
